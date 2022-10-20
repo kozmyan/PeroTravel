@@ -226,7 +226,14 @@ $('.slider').slick({
       {
         breakpoint: 767.98,
         settings: {
-          slidesToShow: 1.8,
+          slidesToShow: 1.2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 428,
+        settings: {
+          slidesToShow: 1.2,
           slidesToScroll: 1
         }
       }
@@ -267,6 +274,14 @@ $('.slider2').slick({
             slidesToShow: 1,
             slidesToScroll: 1
           }
+        },
+        {
+          breakpoint: 428,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1.3,
+          }
         }
+       
       ]
   });
