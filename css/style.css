@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&family=Montserrat:wght@500;700;900&display=swap');
+
+@font-face{
+    font-family: 'mr_KindlyJasmineG';
+    src: url('fonts/mr_KindlyJasmineG.otf');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Шрифт для ковычек */
+/* font-family: 'Marko One', serif; */
+
